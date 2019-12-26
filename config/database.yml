@@ -12,7 +12,6 @@ test:
   <<: *default
   database: tasklist_test
 production:
-  production:
   adapter: postgresql
   encoding: unicode
   pool: 5
